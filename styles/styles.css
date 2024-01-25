@@ -1,0 +1,19 @@
+body {
+    background-color: orangered ;
+}
+
+a {
+
+    padding: 10px;
+    color: black;
+    font-size: 1.3em;
+}
+
+img {
+    width: 300px;
+
+}
+    #main_title{
+        font-size: 4em;
+    
+    }
