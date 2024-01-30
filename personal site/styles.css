@@ -8,10 +8,16 @@ a {
     font-size: 1.3em;
 }
 
+a:hover {
+    color: rgb(80, 78, 78);
+    background-color: white;
+}
+
 img {
     width: 300px;
 
 }
-    #main_title{
+
+#main_title{
         font-size: 4em;
 }
