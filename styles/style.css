@@ -1,7 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Honk&family&display=swap');
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
 
+}
+#main_title {
+    font-size: 3em;
+    text-align: center;
+    font-family: "Protest Riot", "Honk Family", sans-serif;
 }
 nav a {
     text-align: center;
