@@ -31,6 +31,11 @@ main section {
 }
 body {
     background-color: black;
+    font-family: Arial, sans-serif
+}
+
+h2 {
+    margin: 0;
 }
 header {
     background-color: rgba(20,30,13, .7);
@@ -43,6 +48,10 @@ nav a:hover {
     background-color: black;
     color: #d9c2a3;
     text-decoration: none;
+    text-align: center;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
 }
 .book:hover, .join:hover {
     background-color: black;
@@ -50,6 +59,7 @@ nav a:hover {
 }
 .msg {
     background-color: black;
+    line-height: 1.5em;
 }
 footer {
     background-color: black;
@@ -57,6 +67,7 @@ footer {
 }
 .home-title {
     color: #d9c2a3;
+    font-size: 2em;
 }
 h4 {
     color: #d9c2a3;
@@ -85,4 +96,10 @@ footer p {
 }
 footer p a:hover {
     text-decoration: underline;
+}
+.card-img {
+    border: 10px solid #d9c2a3
+}
+main section img {
+    box-sizing: border-box;
 }
