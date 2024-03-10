@@ -123,3 +123,19 @@ footer p, footer a {
         width: 80%;
     }
 }
+nav {
+    display: flex;
+    justify-content: center; /* Center the navigation links horizontally */
+    align-items: center;
+}
+
+nav a {
+    color: #d9c2a3;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 20px;
+}
+
+nav a:hover {
+    background-color: black;
+}
