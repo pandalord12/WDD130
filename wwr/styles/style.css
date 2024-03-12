@@ -162,6 +162,11 @@ form {
     margin-left: 0.5em;
   }
   
+/* Placeholder for the forum box selector with appropriate text color */
+#forum-box {
+    color: white; /* Change this to whatever color you want */
+}
+
 @media screen and (max-width: 900px) {
     header {
         flex-direction: column;
@@ -188,3 +193,4 @@ form {
         width: 80%;
     }
 }
+
