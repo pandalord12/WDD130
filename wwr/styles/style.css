@@ -140,7 +140,7 @@ form {
   input:focus,
   textarea:focus {
     /* Additional highlight for focused elements */
-    border-color: #000;
+    border-color: #f1efef;
   }
   
   textarea {
