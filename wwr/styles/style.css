@@ -104,24 +104,24 @@ form {
     padding: 1em;
     border: 1px solid #ccc;
     border-radius: 1em;
-  }
+}
   
   ul {
     list-style: none;
     padding: 0;
     margin: 0;
-  }
+}
   
   form li + li {
     margin-top: 1em;
-  }
+}
   
   label {
     /* Uniform size & alignment */
     display: inline-block;
     width: 90px;
     text-align: right;
-  }
+}
   
   input,
   textarea {
@@ -135,13 +135,13 @@ form {
   
     /* Match form field borders */
     border: 1px solid #fbf9f9;
-  }
+}
   
   input:focus,
   textarea:focus {
     /* Additional highlight for focused elements */
     border-color: #f1efef;
-  }
+}
   
   textarea {
     /* Align multiline text fields with their labels */
@@ -149,18 +149,18 @@ form {
   
     /* Provide space to type some text */
     height: 5em;
-  }
+}
   
   .button {
     /* Align buttons with the text fields */
     padding-left: 90px; /* same size as the label elements */
-  }
+}
   
   button {
     /* This extra margin represent roughly the same space as the space
        between the labels and their text fields */
     margin-left: 0.5em;
-  }
+}
   
 /* Placeholder for the forum box selector with appropriate text color */
 #forum-box {
