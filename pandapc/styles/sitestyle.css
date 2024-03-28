@@ -21,6 +21,9 @@ header {
 
 #logo_link {
     display: inline-block;
+    padding-top: 10px;
+    align-items: center;
+    text-align: center;
 }
 
 .logo {
