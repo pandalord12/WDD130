@@ -10,30 +10,34 @@ body {
     margin: 0 auto;
 }
 
+#content{
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+header{
+    background-color: #493D67 ;
+    max-width: 100%;
+}
+
 header {
-    background-color: #576066;
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-    text-align: center;
+    display: grid;
+    grid-template-columns: 100px 1fr;
     align-items: center;
-}
-
-#logo_link {
-    display: inline-block;
-    padding-top: 10px;
-    align-items: center;
-    text-align: center;
-}
-
-.logo {
-    width: 100px;
 }
 
 nav {
     display: flex;
-    justify-content: center; /* Center the navigation links horizontally */
+    justify-content: space-around;
+}
+
+#logo_link {
+    padding-top: 10px;
     align-items: center;
+    text-align: center;
+}
+.az_logo{
+    width: 100%;
 }
 
 nav a {
