@@ -16,6 +16,7 @@ header {
     align-items: center;
     justify-content: space-between;
     padding: 20px;
+    text-align: center;
 }
 
 #logo_link {
