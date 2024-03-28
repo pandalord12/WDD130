@@ -1,5 +1,5 @@
 body {
-    background-color: black;
+    background-color: #122932;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -11,7 +11,7 @@ body {
 }
 
 header {
-    background-color: rgba(20, 30, 13, 0.7);
+    background-color: #576066;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -33,45 +33,23 @@ nav {
 }
 
 nav a {
-    color: #d9c2a3;
+    color: #2c514c;
     text-decoration: none;
     font-size: 18px;
     padding: 10px 20px;
 }
 
 nav a:hover {
-    background-color: black;
+    background-color: #122932;
 }
 
 main {
     padding: 20px;
 }
 
-.rivers-section {
-    margin-bottom: 50px;
-}
-
-.river-info {
-    text-align: left;
-    background-color: #6f7364;
-    color: #d9c2a3;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
-}
-
-.river-info img {
-    width: 100%;
-    border-radius: 10px;
-}
-
-.river-info p {
-    margin-top: 15px;
-}
-
 footer {
-    background-color: #6f7364;
-    color: #d9c2a3;
+    background-color: #576066;
+    color: #2c514c;
     padding: 20px;
     text-align: center;
 }
@@ -191,14 +169,6 @@ form {
 
     main {
         padding: 20px 10px;
-    }
-
-    .rivers-info {
-        text-align: center;
-    }
-
-    .rivers-info img {
-        width: 80%;
     }
 }
 
